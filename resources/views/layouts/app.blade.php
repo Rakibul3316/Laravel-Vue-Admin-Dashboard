@@ -39,10 +39,7 @@
                 style="display: none">
                 <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
                     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                        <div class="sidebar-brand-icon">
-                            <img src="{{ asset('backend/img/logo/logo2.png') }}">
-                        </div>
-                        <div class="sidebar-brand-text mx-3">RuangAdmin</div>
+                        <h2 class="sidebar-brand-text mx-3">eBazar</h2>
                     </a>
                     <hr class="sidebar-divider my-0">
 

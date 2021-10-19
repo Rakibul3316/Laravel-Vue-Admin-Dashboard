@@ -41,7 +41,7 @@ class ExpensController extends Controller {
 
         $expense->amout        = $request->amount;
         $expense->details      = $request->details;
-        $expense->expense_date = date( 'd/m/y' );
+        $expense->expense_date = date( 'd/m/Y' );
 
         $expense->save();
         return $request;
@@ -70,7 +70,7 @@ class ExpensController extends Controller {
 
         $expense->amout        = $request->amount;
         $expense->details      = $request->details;
-        $expense->expense_date = date( 'd/m/y' );
+        $expense->expense_date = date( 'd/m/Y' );
         $expense->save();
 
         return $request;

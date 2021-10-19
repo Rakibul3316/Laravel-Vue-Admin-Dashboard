@@ -4504,7 +4504,6 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       axios.get("/api/today/sell").then(function (res) {
-        console.log("today sell >>", res.data);
         _this.sell = res.data;
       })["catch"]();
     },
@@ -4512,7 +4511,6 @@ __webpack_require__.r(__webpack_exports__);
       var _this2 = this;
 
       axios.get("/api/today/income").then(function (res) {
-        console.log("today income >>", res.data);
         _this2.income = res.data;
       })["catch"]();
     },
@@ -4520,7 +4518,6 @@ __webpack_require__.r(__webpack_exports__);
       var _this3 = this;
 
       axios.get("/api/today/due").then(function (res) {
-        console.log("today due >>", res.data);
         _this3.due = res.data;
       })["catch"]();
     },
@@ -4528,7 +4525,6 @@ __webpack_require__.r(__webpack_exports__);
       var _this4 = this;
 
       axios.get("/api/today/expense").then(function (res) {
-        console.log("today expense >>", res.data);
         _this4.expense = res.data;
       })["catch"]();
     },
@@ -4536,7 +4532,6 @@ __webpack_require__.r(__webpack_exports__);
       var _this5 = this;
 
       axios.get("/api/today/stockout").then(function (res) {
-        console.log("stockout product >>", res.data);
         _this5.products = res.data;
       })["catch"]();
     }

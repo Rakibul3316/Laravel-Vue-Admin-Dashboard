@@ -183,7 +183,6 @@ export default {
       axios
         .get("/api/today/sell")
         .then((res) => {
-          console.log("today sell >>", res.data);
           this.sell = res.data;
         })
         .catch();
@@ -192,7 +191,6 @@ export default {
       axios
         .get("/api/today/income")
         .then((res) => {
-          console.log("today income >>", res.data);
           this.income = res.data;
         })
         .catch();
@@ -201,7 +199,6 @@ export default {
       axios
         .get("/api/today/due")
         .then((res) => {
-          console.log("today due >>", res.data);
           this.due = res.data;
         })
         .catch();
@@ -210,7 +207,6 @@ export default {
       axios
         .get("/api/today/expense")
         .then((res) => {
-          console.log("today expense >>", res.data);
           this.expense = res.data;
         })
         .catch();
@@ -219,7 +215,6 @@ export default {
       axios
         .get("/api/today/stockout")
         .then((res) => {
-          console.log("stockout product >>", res.data);
           this.products = res.data;
         })
         .catch();
